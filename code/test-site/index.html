@@ -4,34 +4,106 @@
         <meta charset="utf-8"><!--use utf-8-->
         <meta name="author" content="Jiarong Qiu">
         <title>首页 - 知乎</title>
-        <link rel="stylesheet" href="styles/s.css">
+        <link rel="stylesheet" href="styles/top.css">
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     </head>
     <body>
-        <nav> <!-- 本站统一的导航栏 -->
-        <a href="#">知乎</a>
-        <a href="#">首页</a>
-        <a href="#">会员</a>
-        <a href="#">发现</a>
-        <a href="#">等你来答</a>
+        <div id="top_banner" >
+            <img id=top_zhihu src="images/454CCE4B7BF4A115C0C7FF5970E37688.jpg">
+            &nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href="#">首页</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href="#">会员</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href="#">发现</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href="#">等你来答</a>&nbsp&nbsp&nbsp&nbsp&nbsp
        
-            <input type="search" name="q" placeholder="孟晚舟即将回国">
-            <input type="submit" value="提问">
-         </nav>
+                <input type="search" name="q" placeholder="搜索感兴趣的内容...">
+                <input type="submit" value="提问">
+                <span>
+                    <img id=top_user src="images/1630034065862.jpeg">
+                    <ul class="">
+                        <li><a href="user.html">我的主页</a> </li>
+                        <li><a href="user.html">我的主页</a> </li>
+                        <li><a href="user.html">我的主页</a> </li>
+                        <li><a href="user.html">我的主页</a> </li>
+                        <li><a href="user.html">我的主页</a> </li>
+                    </ul>
+                </span>
+        </div>
          <main>
-            
+          <div class="main_body"> 
             <div class="box">
-            <a href="#">关注</a>
-            <a href="#">推荐</a>
-            <a href="#">热榜</a>
-            <a href="#">视频</a>
+                <span><a class="top_text"href="#">关注</a>&nbsp&nbsp&nbsp&nbsp&nbsp</span> 
+                <span><a clas
+                    s="top_text"href="#">推荐</a>&nbsp&nbsp&nbsp&nbsp&nbsp</span> 
+                <span><a class="top_text"href="#">热榜</a>&nbsp&nbsp&nbsp&nbsp&nbsp</span> 
+                <span><a class="top_text"href="#">视频</a>&nbsp&nbsp&nbsp&nbsp&nbsp</span> 
             </div>
+            clang: error: linker command failed with exit code 1 (use -v to see invocation)
+终端进程“zsh '-c', '/usr/bin/clang++ -std=c++17 -stdlib=libc++ -g /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index.html -o /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index'”启动失败(退出代码: 1)。
+
+终端将被任务重用，按任意键关闭。
+
+> Executing task: /usr/bin/clang++ -std=c++17 -stdlib=libc++ -g /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/styles/top.css -o /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/styles/top <
+
+ld: warning: ignoring file /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/styles/top.css, building for macOS-x86_64 but attempting to link with file built for unknown-unsupported file format ( 0x23 0x74 0x6F 0x70 0x5F 0x62 0x61 0x6E 0x6E 0x65 0x72 0x7B 0x0A 0x09 0x77 0x69 )
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+终端进程“zsh '-c', '/usr/bin/clang++ -std=c++17 -stdlib=libc++ -g /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/styles/top.css -o /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/styles/top'”启动失败(退出代码: 1)。
+
+终端将被任务重用，按任意键关闭。
+
+> Executing task: /usr/bin/clang++ -std=c++17 -stdlib=libc++ -g /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index.html -o /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index <
+
+ld: warning: ignoring file /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index.html, building for macOS-x86_64 but attempting to link with file built for unknown-unsupported file format ( 0x3C 0x21 0x64 0x6F 0x63 0x74 0x79 0x70 0x65 0x20 0x68 0x74 0x6D 0x6C 0x3E 0x3C )
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+终端进程“zsh '-c', '/usr/bin/clang++ -std=c++17 -stdlib=libc++ -g /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index.html -o /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index'”启动失败(退出代码: 1)。
+
+终端将被任务重用，按任意键关闭。
+
+> Executing task: /usr/bin/clang++ -std=c++17 -stdlib=libc++ -g /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index.html -o /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index <
+
+ld: warning: ignoring file /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index.html, building for macOS-x86_64 but attempting to link with file built for unknown-unsupported file format ( 0x3C 0x21 0x64 0x6F 0x63 0x74 0x79 0x70 0x65 0x20 0x68 0x74 0x6D 0x6C 0x3E 0x3C )
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+终端进程“zsh '-c', '/usr/bin/clang++ -std=c++17 -stdlib=libc++ -g /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index.html -o /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index'”启动失败(退出代码: 1)。
+
+终端将被任务重用，按任意键关闭。
+
+> Executing task: /usr/bin/clang++ -std=c++17 -stdlib=libc++ -g /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index.html -o /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index <
+
+ld: warning: ignoring file /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index.html, building for macOS-x86_64 but attempting to link with file built for unknown-unsupported file format ( 0x3C 0x21 0x64 0x6F 0x63 0x74 0x79 0x70 0x65 0x20 0x68 0x74 0x6D 0x6C 0x3E 0x3C )
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+终端进程“zsh '-c', '/usr/bin/clang++ -std=c++17 -stdlib=libc++ -g /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index.html -o /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index'”已终止，退出代码: 1。
+
+终端将被任务重用，按任意键关闭。
+
+> Executing task: /usr/bin/clang++ -std=c++17 -stdlib=libc++ -g /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index.html -o /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index <
+
+ld: warning: ignoring file /Users/qiujiarong/Desktop/QJR-PS-Pratice的副本/code/test-site/index.html, building for macOS-x86_64 but attempting to link with file built for unknown-unsupported file format ( 0x3C 0x21 0x64 0x6F 0x63 0x74 0x79 0x70 0x65 0x20 0x68 0x74 0x6D 0x6C 0x3E 0x3C )
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with 
+        </div> 
          </main>
-         <aside>
-             创作中心
-         </aside>
-         <footer>
-            <p>联系我们 © 2021 知乎</p>
+             <aside>
+
+             </aside>
          </footer>
     </body>
 </html>
