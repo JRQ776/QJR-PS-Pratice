@@ -1,0 +1,79 @@
+.SignFlowHomepage{
+    display:flex;
+    box-sizing:border-box;
+    flex-direction: column;
+    background-image: url(../images/sign_bg.db29b0fb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    overflow:auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.SignLogo{
+    width: 128px;
+    height: 81px;
+    margin-bottom: 24px;
+    
+}
+
+.Sign{
+    
+    padding-top:40px;
+    padding-bottom: 40px;
+    min-width: 0;
+    background-color: #FFFFFF;
+    width:400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.Input{
+    width:100%;
+    height:48px;
+    width:352px;
+    background: transparent;
+    border: none;
+    
+}
+.sign-but{
+    color: #fff;
+    background-color: #06f;
+    width: 90%;
+    margin-top: 30px;
+    height: 36px;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+.chose{
+    list-style-type: none;
+    align-items: stretch;
+    margin:0;
+    padding:0;
+}
+.choseContent{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+} 
+#content1{
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+}
+
+#content2{
+    position: absolute;
+    background-color: white;
+    z-index: 0;
+}
+.content{
+    width:80%;
+    height:200px;
+}

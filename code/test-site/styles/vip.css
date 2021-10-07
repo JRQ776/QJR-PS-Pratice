@@ -1,0 +1,34 @@
+.LBT{
+    top:52px;
+    left:0;
+    height:332px;
+    width:100%;
+    position:absolute;
+}
+
+.LBpicture{
+    position:absolute;
+    width:1280px;
+    height:332px;
+    cursor:pointer;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+.butleft{
+    position: absolute;
+    margin-top:150px;
+    margin-left:10px;
+    height: 30px;
+    cursor:pointer;
+}
+
+.butright{
+    position: absolute;
+    right:1px;
+    margin-top:150px;
+    margin-right:10px;
+    height: 30px;
+    cursor:pointer;
+}

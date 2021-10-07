@@ -1,0 +1,24 @@
+.mainColumn-card{
+    width:654px;
+    height: 158px;
+    background-color: white;
+    margin-bottom: 4px;
+    padding:20px;
+}
+.mainColumn-card-title{
+    font-size: 18px;
+    font-weight:bold;
+    padding-bottom:4px;
+}
+.mainColumn-card-buttons{
+    display:inline-block;
+}
+.Button{
+    line-height: 30px;
+    padding: 0 12px;
+    background: rgba(0,102,255,.1);
+    border: 1px solid;
+    border-color: transparent;
+    border-radius: 3px;
+    cursor:pointer;
+}
